@@ -1,0 +1,11 @@
+.footer {
+  background-color: #000000;
+}
+
+.footer nav > ul a:not(.btn) {
+  color: #FFFFFF;
+}
+
+.footer .copyright {
+  color: #FFFFFF;
+}

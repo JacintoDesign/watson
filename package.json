@@ -9,12 +9,17 @@
     "express": "^4.16.3",
     "express-rate-limit": "^2.11.0",
     "express-secure-only": "^0.2.1",
+    "google-cloud": "^0.57.0",
+    "npm": "^5.8.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
+    "request": "^2.85.0",
+    "stream-buffers": "^3.0.1",
     "vcap_services": "^0.3.4",
     "watson-developer-cloud": "^3.2.1",
-    "watson-speech": "^0.34.1"
+    "watson-speech": "^0.34.1",
+    "websocket": "^1.0.25"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,12 @@
+.navbar {
+  background: transparent;
+  box-shadow: none;
+}
+
+.navbar .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #FFFFFF;
+}

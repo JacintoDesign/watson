@@ -1,0 +1,43 @@
+.section {
+  background-color: #000000;
+}
+
+.translator-container {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  width: 35%;
+}
+
+.btn-outline-danger {
+  margin: 2em 1em;
+}
+
+.btn-outline-success {
+  margin: 2em 1em;
+}
+
+.record-instructions {
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 1.0em;
+}
+
+.translation-text {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 2em;
+  color: red;
+}
+
+.translation-message {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: white;
+}
