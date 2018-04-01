@@ -15,7 +15,7 @@ class Translator extends React.Component {
    }
 
    recordButtonHandler = (event) => {
-      fetch('http://localhost:3002/api/speech-to-text/token')
+      fetch('https://morse-code-generator.mybluemix.net/')
       .then(response => {
          return response.text();
       })
