@@ -15,7 +15,7 @@ class Translator extends React.Component {
    }
 
    recordButtonHandler = (event) => {
-      fetch('https://morse-code-generator-server.herokuapp.com/api/speech-to-text/token')
+      fetch('https://morse-code-generator.mybluemix.net/api/speech-to-text/token')
       .then(response => {
          return response.text();
       })
