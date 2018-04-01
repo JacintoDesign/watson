@@ -26,6 +26,7 @@
   font-family: Helvetica;
   font-weight: 400;
   font-size: 1.0em;
+  line-height: 1.5em;
 }
 
 .translation-text {
@@ -40,4 +41,18 @@
   font-weight: 400;
   font-size: 1.2em;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-outline-danger {
+    margin: 0.2em 0.1em;
+  }
+  
+  .btn-outline-success {
+    margin: 0.2em 0.1em;
+  }
+
+  .record-instructions {
+    margin-bottom: 1em;
+  }
 }

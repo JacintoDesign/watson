@@ -4,7 +4,7 @@ const VoiceRecorder = (props) => {
    return (
       <div>
         <div className='record-instructions'>
-            Press "Start Recording" to record your message. Press "Stop Recording" to output morse code.
+            Press "Start Recording" to record your message. <br /> Press "Stop Recording" to output morse code.
         </div>
         <div>
           <button className='btn btn-outline-danger btn-lg' onClick={props.recordButtonHandler}>Start Recording</button>
